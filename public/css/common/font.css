@@ -1,0 +1,56 @@
+/* 
+@font-face{
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Europa';
+    src: url('../fonts/europa.ttf');
+}
+@font-face{
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face{
+    font-family: 'Roboto-Light';
+    src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face{
+    font-family: 'Arial';
+    src: url('../fonts/Arial.ttf');
+}
+@font-face{
+    font-family: 'Source';
+    src: url('../fonts/SourceSansPro-Regular.ttf');
+}
+@font-face{
+    font-family: 'Ocra';
+    src: url('../fonts/OCRAStdRegular.ttf');
+}
+@font-face{
+    font-family:'Prestige';
+    src: url('../fonts/Prestige.otf');
+}
+@font-face{
+    font-family: 'FontAwesome';
+    src:url(../fonts/webfonts/fa-solid-900.eot);
+    src:url(../fonts/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/webfonts/fa-solid-900.woff2) format("woff2"),
+    url(../fonts/webfonts/fa-solid-900.woff) format("woff"),
+    url(../fonts/webfonts/fa-solid-900.ttf) format("truetype"),
+    url(../fonts/webfonts/fa-solid-900.svg#fontawesome) format("svg");
+} */
+
+@font-face{
+    font-family: 'Tekton';
+    src: url('../../fonts/TektonPro-Regular.otf');
+}
+@font-face{
+    font-family: 'Roboto';
+    src: url('../../fonts/Roboto.ttf');
+}
+@font-face{
+    font-family: 'Tahoma';
+    src: url('../../fonts/Tahoma.ttf');
+}

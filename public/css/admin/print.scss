@@ -1,0 +1,60 @@
+$main-yellow: #ffab00;
+$main-gray: #a4a4a4;
+
+$big-text: 18px;
+$nor-text: 14px;
+$small-text: 12px;
+@page {
+    size: A4 ;
+    margin: 0;
+    padding: 0;
+}
+@media print {
+    .open-sidebar .page-wrapper{
+        margin-left: 0;
+    }
+    .col-md-6{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-lg-1{
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+    
+    .col-lg-12 , .col-lg-3 , .col-lg-6{
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+    .col-lg-8{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .payment__influencer-detail .detail__info{
+        padding: 24px 24px 0 24px;
+    }
+    .fa-print{
+        display: none;
+    }
+    .detail__total{
+        background-color: #f1f5fa !important;
+        -webkit-print-color-adjust: exact; 
+    }
+    .detail__terms-signature{
+        float: right;
+        margin-left: auto;
+        display: block;
+    }
+    .payment__influencer-detail .detail__info{
+        border-bottom: 1px solid #f1f5fa;
+    }
+    .payment__influencer-detail{
+        border: 1px solid #382263;
+    }
+    .noprint{
+        display: none !important;
+    }
+}

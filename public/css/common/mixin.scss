@@ -1,0 +1,12 @@
+
+@mixin compatible($attribute, $params) {
+    #{$attribute}: #{$params};
+    -webkit-#{$attribute}: #{$params};
+    -moz-#{$attribute}: #{$params};
+    -ms-#{$attribute}: #{$params};
+    -o-#{$attribute}: #{$params};
+}
+@mixin invalid-feedback($fontSize,$color){
+    font-size: $fontSize;
+    color:$color;
+}
